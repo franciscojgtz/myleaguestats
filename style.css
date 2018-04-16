@@ -1,0 +1,407 @@
+/* Zero down margin and paddin on all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 62.5%/1.6 "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 2.4em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.0em;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.6em;
+  font-weight: normal;
+}
+
+p, li, label, td, th {
+  font-size: 1.4em;
+}
+
+legend {
+  font-size: 1.6em;	
+}
+
+h1, h2 {
+  margin: 0 0 0.5em 0;
+}
+
+ul, ol
+{
+  list-style-position:inside;
+}
+
+a:link {
+	color:#0D202E;
+	text-decoration: none;
+	}     
+a:visited {
+	color:#0D202E;
+	text-decoration: none;
+	}  
+a:hover {
+	color:#940000;
+	text-decoration: underline;
+	}  
+a:active {
+	color:#940000;
+	}
+
+.branding h1 {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #fff;
+}
+
+.header {
+  height: 48px;
+  background-color: #fff;
+  padding: 0px 20px;
+  border-bottom: solid 2px #0D202E;
+  margin: 0px 0px 20px 0px;
+}
+
+.headerlogo{
+	float: left;
+	height: 48px;
+   width: 573px;
+}
+.headermenu{
+	display: block;
+	padding-top: 15px;
+	float: right;
+}
+
+.headermenu li {
+	display: inline;
+	padding-right: 30px;
+	font-weight: bold;
+}
+
+.nav {
+  list-style: none;
+	padding: 20px;
+	border: 1px solid #0D202E;
+}
+
+.content .secondary .promo {
+	padding-left: 20px;
+}
+
+.footer {
+  height: 74px;
+  background-image: url("images/myleaguestats1_footer_1024by74.png");
+  background-repeat: no-repeat;
+  background-color:#ffffff;
+  color: #ffffff;
+  padding: 1px 20px;
+}
+
+/* The Core Technique
+================================= */
+
+body {
+  text-align: center; 
+  min-width: 1024px;
+}
+
+.wrapper {
+  width: 1024px; 
+  margin: 0 auto; 
+  text-align: left;
+}
+
+.content {
+  overflow: hidden;
+  min-height:600px;
+}
+
+.content .primary { 
+  width: 754px;
+	padding-right: 20px;
+  float: right;
+}
+
+.content .secondary { 
+  width: 230px;
+  float: left; 
+} 
+
+.footer {
+  clear: both;
+  margin-top: 20px;
+}
+.footer p {
+	padding-top: 40px;
+}
+/*
+label {
+  display: block;
+  width: 230px;
+  float: left;
+  clear: both;
+  text-align: right;
+
+}*/
+
+.loginfields {
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-top: 1px solid #e5e5e5;
+   border-left: 1px solid #e5e5e5;
+}
+
+.loginrecaptcha {
+	float: left;
+	text-align: right;
+}
+
+.showform {
+	width: 100%;
+	height: 20px;
+	background-color: #e5e5e5;
+	text-align: center;
+	font-weight: bold;
+}
+
+.hideform {
+	width: 100%;
+	height: 20px;
+	background-color: #e5e5e5;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*from this point, its my code*/
+#insertleague, #insertseason, #insertstanding, #insertteam {
+  position : absolute; left : 20%; top : 100px; 
+  height : 350px; 
+  width : 430px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color : #D45335; 
+  z-index: 200; 
+  display: none; 
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.errormsg{
+  color: #BD2031;	
+  font-weight: bold;
+  background-color: #000;
+}
+
+.cancellink, .addlink{
+  	font: bold 12px Arial;
+   text-decoration: none;
+   background-color: #DCDCDC;
+   color: #D45335;
+   padding: 2px 6px 2px 6px;
+   margin: 100px 0;
+   border-top: 1px solid #CCCCCC;
+   border-right: 1px solid #333333;
+   border-bottom: 1px solid #333333;
+   border-left: 1px solid #CCCCCC;
+}
+
+table {
+border-width: 1px;
+border-style: solid;
+border-color: #000000;
+border-collapse: collapse;
+}
+
+th, td {
+border-width: 1px;
+border-style: solid;
+border-color: #000000;
+text-align: center;
+}
+/*
+caption {
+font-size: 1.6em;
+font-weight: bold;
+padding-bottom: 4px;
+
+}*/
+
+th {
+font-variant: small-caps;
+color: #ffffff;
+letter-spacing: 0.2em;
+background-color: #539f00;
+
+}
+
+td {
+text-align: center;	
+}
+
+.teamcell {
+  width: 250px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.data {
+  width: 40px;
+}
+
+.oddrow {
+  background-color: #98CF5D;	
+}
+
+input[type=submit]:hover, input[type=button]:hover, input[type=reset]:hover{
+text-decoration: underline;
+}
+
+.form-buttons
+{
+	margin-top: 10px;	
+}
+
+
+
+#leagueslist {
+padding-bottom: 10px;
+}
+
+/*breadcrumb*/
+
+.breadcrumb{
+   background-color: #D45335;
+   display:block;
+   height: 20px;
+}
+
+.breadcrumb li {
+	list-style-type:none;
+	float:left;
+	padding: 0 15px;
+	display:block;
+}
+
+.breadcrumb li a {
+	color:#ffffff;
+	display:block;
+	text-decoration:none;
+}
+
+.editmenu {
+	border-bottom: solid 2px #e5e5e5;
+	display: block;
+	height: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.editmenu li {
+	display:inline;
+	float:left;
+	padding: 0 20px 0 0;
+	
+}
+
+.editmenu li a {
+	display:inline;	
+}
+
+.introtext {
+	margin-bottom: 20px;
+	border-bottom: solid 2px #e5e5e5;
+	padding-bottom: 10px;
+}
+
+.editableBox {
+	border: 1px solid #000;
+}
+
+.leaguelist {
+	float: left;
+	width: 366px;
+	height: 500px;
+	overflow: auto;
+	margin-right: 20px;
+	border-right: solid 2px #e5e5e5;
+}
+.teamlist {
+	float: left;
+	width: 366px;
+   height: 500px;
+   overflow: auto; 
+}
+
+.standingstable, .gametable{
+	width: 100%;
+}
+
+.successpagebuttons {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.listlink {
+   background-color: #D45335;	
+   padding: 15px;
+   margin-bottom: 15px;
+   border-radius: 10px;
+}
+
+.leaguelist-edit {
+}
+
+.leaguelist-edit li{
+	margin: 5px 0;
+}
+
+.leaguelist-edit li:nth-child(even){
+	background-color: #e5e5e5;	
+}
+
+.leaguelist-edit-leaguename {
+	width: 620px;
+	display: inline-block;
+
+}
+
+#index-page .pure-form {
+	padding-bottom: 20px;
+	border-bottom: solid 2px #e5e5e5;
+}
+
+.gameround {
+   border-bottom: solid 2px #D45335;
+   border-left: solid 2px #D45335;
+   padding: 0 0 15px 15px;
+}
+
+.bc-activepage {
+	color:#000;
+	padding-right: 15px;
+}
+
+.gameslist li{
+	
+}
+
+.gameslist li .localteam{
+	border: solid 1px #D45335;
+	width: 50px;
+}
+
+.clear {
+   clear: both;	
+}

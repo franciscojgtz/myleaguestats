@@ -1,0 +1,18 @@
+[18-Aug-2014 01:02:49 UTC] PHP Warning:  Smarty error: unable to read resource: "index.tpl" in /home/jaguarmx/public_html/libs/Smarty.class.php on line 1093
+[18-Aug-2014 01:02:54 UTC] PHP Warning:  Smarty error: unable to read resource: "index.tpl" in /home/jaguarmx/public_html/libs/Smarty.class.php on line 1093
+[18-Aug-2014 01:02:58 UTC] PHP Warning:  Smarty error: unable to read resource: "navigation.tpl" in /home/jaguarmx/public_html/libs/Smarty.class.php on line 1093
+[18-Aug-2014 01:02:58 UTC] PHP Warning:  Smarty error: unable to read resource: "promo.tpl" in /home/jaguarmx/public_html/libs/Smarty.class.php on line 1093
+[27-Aug-2014 21:06:39 UTC] PHP Fatal error:  Call to a member function getName() on a non-object in /home/jaguarmx/public_html/templates_c/%%EE^EE1^EE1FAB0E%%headerloggedin.tpl.php on line 6
+[27-Aug-2014 21:09:40 UTC] PHP Fatal error:  Call to a member function getName() on a non-object in /home/jaguarmx/public_html/templates_c/%%EE^EE1^EE1FAB0E%%headerloggedin.tpl.php on line 6
+[28-Aug-2014 19:35:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'no connection was made!' in /home/jaguarmx/public_html/classes/class.DataManager.php:39
+Stack trace:
+#0 /home/jaguarmx/public_html/classes/class.DataManager.php(151): DataManager::_getConnection()
+#1 /home/jaguarmx/public_html/index.php(158): DataManager::getAllUsersAsObjects()
+#2 {main}
+  thrown in /home/jaguarmx/public_html/classes/class.DataManager.php on line 39
+[28-Aug-2014 19:35:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'no connection was made!' in /home/jaguarmx/public_html/classes/class.DataManager.php:39
+Stack trace:
+#0 /home/jaguarmx/public_html/classes/class.DataManager.php(151): DataManager::_getConnection()
+#1 /home/jaguarmx/public_html/index.php(158): DataManager::getAllUsersAsObjects()
+#2 {main}
+  thrown in /home/jaguarmx/public_html/classes/class.DataManager.php on line 39
