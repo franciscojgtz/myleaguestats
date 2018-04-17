@@ -22,8 +22,6 @@
 <div class="primary">
 
 <p class="errormsg">{$user_error}</p>
-
-<p class="errormsg">{$captcha_error}</p>
   
    {foreach item=error from=$errors}
       <p class="errormsg">       
@@ -40,7 +38,6 @@
     <p><label for="memberuseremailverified">Re-enter email</label> <input type="email" name="memberuseremailverified" id="memberuseremailverified" placeholder="verify email" required/> </p>
     <p><label for="memberpassword">password</label> <input type="password" name="memberpassword" id="memberpassword" placeholder="password" required/></p>   
     <p><label for="memberpasswordverified">Re-enter password</label> <input type="password" name="memberpasswordverified" id="memberpasswordverified" placeholder="verify password" required/><br /></p>   
-    {$recaptcha} 
 
     <p class="form-buttons"><input type="submit" name="submit" id="submit" value="Submit"  class="pure-button pure-button-primary"/></p>
 
