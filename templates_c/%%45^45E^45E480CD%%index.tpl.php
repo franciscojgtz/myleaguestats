@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-02-03 23:38:37
+<?php /* Smarty version 2.6.26, created on 2018-04-17 22:29:44
          compiled from index.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -78,9 +78,7 @@ unset($_smarty_tpl_vars);
     		<p><label for="memberpassword">password</label> <input type="password" name="memberpassword" id="memberpassword" placeholder="password" required/> <br /></p>
     	</div>
     
-    	<div class="loginrecaptcha">   
-    		<?php echo $this->_tpl_vars['recaptcha']; ?>
- 
+    	<div class="loginrecaptcha">  
     		
     		<p class="form-buttons"><input type="submit" name="submit" id="submit" value="Submit" class="pure-button pure-button-primary"/>
     	<a href="forgotpassword.php">Forgot Password?</a></p>

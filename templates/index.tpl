@@ -65,8 +65,7 @@ $(document).ready(function(){
     		<p><label for="memberpassword">password</label> <input type="password" name="memberpassword" id="memberpassword" placeholder="password" required/> <br /></p>
     	</div>
     
-    	<div class="loginrecaptcha">   
-    		{$recaptcha} 
+    	<div class="loginrecaptcha">  
     		
     		<p class="form-buttons"><input type="submit" name="submit" id="submit" value="Submit" class="pure-button pure-button-primary"/>
     	<a href="forgotpassword.php">Forgot Password?</a></p>
