@@ -53,7 +53,6 @@
     <p><label for="email">email</label> <input type="text" name="email" id="email" value="{$email}" placeholder="email" required/></p>
     <p><label for="message" >message</label>
     <textarea name="message" id="message" rows="10" cols="80" placeholder="type your message" required >{$message}</textarea><br /></p>    
-    {$recaptcha} 
 
     <p class="form-buttons"><input type="submit" name="submit" id="submit" value="Submit" class="pure-button pure-button-primary"/></p>
 
