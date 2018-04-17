@@ -3,3 +3,9 @@ changes.txt
 
 #Inore the file named 'dbconfig.php'
 classes/dbconfig.php
+
+# exclude everything in templates_c/
+templates_c/*
+
+#exclude recaptcha global keys
+configs/recaptchaglobalkeys.php

@@ -13,8 +13,7 @@ $smarty = new Smarty;
 //VARIABLES
 
 //INSERT GLOBAL KEYS FOR RECAPTCHA
-$pub_key = "6Lf1C88SAAAAAOaiUuXudBpDwbKRQzDgW6YqBzg5";
-$pri_key = "6Lf1C88SAAAAAN5Js9oLZtkqP6bRpBs11ripnkw3";
+include('configs/recaptchaglobalkeys.php');
 
 //THE RESPONSE FROM RECAPTCHA
 $resp = null;

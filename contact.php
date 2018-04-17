@@ -28,8 +28,7 @@ $smarty = new Smarty;
 $smarty->assign("contact","Home");
 
 //insert goblal keys
-$pub_key = "6Lf1C88SAAAAAOaiUuXudBpDwbKRQzDgW6YqBzg5";
-$pri_key = "6Lf1C88SAAAAAN5Js9oLZtkqP6bRpBs11ripnkw3";
+include('configs/recaptchaglobalkeys.php');
 
 // the response from reCAPTCHA
 $resp = null;
